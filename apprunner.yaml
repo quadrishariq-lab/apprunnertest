@@ -7,5 +7,5 @@ build:
     
 run:
   pre-run:
-    - python3 -m pip3 install gunicorn flask
-  command: python3 -m gunicorn -b 0.0.0.0:8080 app:app
+    - pip3 install gunicorn flask
+  command: gunicorn -b 0.0.0.0:8080 app:app
