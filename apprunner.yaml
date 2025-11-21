@@ -6,4 +6,4 @@ build:
     - pip3 install flask gunicorn
 
 run:
- command: gunicorn -b 0.0.0.0:8080 app:app
+  command: gunicorn -b 0.0.0.0:8080 app:app
