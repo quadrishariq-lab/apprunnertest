@@ -3,7 +3,7 @@ runtime: python311
 
 build:
   commands:
-    -pip3 install flask gunicorn
+    - pip3 install flask gunicorn
 
 run:
  command: gunicorn -b 0.0.0.0:8080 app:app
